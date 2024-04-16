@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Layout_note"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_8sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:background="@drawable/background_ntoe">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RoundedimageNote"
+        android:adjustViewBounds="true"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/TextTitle"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:textSize="@dimen/_14sdp"
+        /> <!--Title-->
+    <TextView
+        android:id="@+id/TextSubtitle"
+        android:text="Subtitle"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="25dp"
+        android:textSize="@dimen/_10sdp"/> <!--SubTitle-->
+    <TextView
+        android:id="@+id/textDate"
+        android:text="Sunday 11/2/2024 12:00 AM"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:layout_marginBottom="5dp"
+        android:textSize="@dimen/_7sdp"/> <!--Date-->
+</LinearLayout>

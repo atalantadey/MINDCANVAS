@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "52184880059",
+    "project_id": "mind-canvas-d990b",
+    "storage_bucket": "mind-canvas-d990b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52184880059:android:829a8f9194ea01e02a6a9e",
+        "android_client_info": {
+          "package_name": "com.ardent.mindcanvas20"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEvZ_d6ECU4uLvsAsG7pjEbmdKg2Cezd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

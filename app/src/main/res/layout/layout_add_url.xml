@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Layout_addURLContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_12sdp"
+    android:background="@drawable/bg_dialog">
+    <ImageView
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:id="@+id/imageAddUrl"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:src="@drawable/url"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/white" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:text="ADD URL"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/imageAddUrl"
+        app:layout_constraintStart_toEndOf="@id/imageAddUrl"
+        app:layout_constraintTop_toTopOf="@id/imageAddUrl"/>
+    <EditText
+        android:id="@+id/inputURL"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="Enter URL"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:includeFontPadding="false"
+        android:inputType="textUri"
+        android:textColor="@color/white"
+        android:textColorHint="@color/Purple"
+        app:layout_constraintTop_toBottomOf="@id/imageAddUrl"
+        android:paddingBottom="@dimen/_10sdp"/>
+    <TextView
+        android:id="@+id/tv_addUrl"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:text="ADD"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:background="@color/Purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputURL"
+        />
+    <TextView
+        android:id="@+id/tv_CancelUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_14sdp"
+        android:text="Cancel"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tv_addUrl"
+        app:layout_constraintTop_toBottomOf="@id/inputURL"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
